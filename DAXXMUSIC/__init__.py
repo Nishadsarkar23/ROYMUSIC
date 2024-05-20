@@ -1,8 +1,8 @@
-from DAXXMUSIC.core.bot import DAXX
-from DAXXMUSIC.core.dir import dirr
-from DAXXMUSIC.core.git import git
-from DAXXMUSIC.core.userbot import Userbot
-from DAXXMUSIC.misc import dbb, heroku
+from SANYAMUSIC.core.bot import SANYA
+from SANYAMUSIC.core.dir import dirr
+from SANYAMUSIC.core.git import git
+from SANYAMUSIC.core.userbot import Userbot
+from SANYAMUSIC.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = DAXX()
+app = SANYA()
 api = SafoneAPI()
 userbot = Userbot()
 
